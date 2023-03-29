@@ -1,0 +1,28 @@
+.exercise {
+  border: 1px solid red;
+  width: 100%;
+}
+.exercise .exercise-title {
+  color: green;
+  text-decoration: underline 2px blue;
+  text-align: center;
+}
+.exercise section {
+  margin: 20px 20px;
+  display: flex;
+  align-items: center;
+}
+.exercise article {
+  border: 1px solid green;
+  display: inline-block;
+  text-align: center;
+  height: 100px;
+}
+.exercise .redtext {
+  color: red;
+}
+.exercise .bluetext {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
