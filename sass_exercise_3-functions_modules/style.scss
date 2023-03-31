@@ -1,0 +1,44 @@
+@use "function.scss" as f;
+@use "variables.scss" as v;
+
+
+@mixin article-card($color, $border, $size) {
+    color: $color;
+    border: 1px solid $border;
+    text-align: center;
+    font-size: $size;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.exercise{
+    border: 2px solid v.$color-primary;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    align-content: center;
+}
+
+h1{
+    color: v.$color-tertiary;
+    text-decoration: 2px underline v.$color-secondary;
+    text-align: center;
+}
+
+.blue_text{
+    @include article-card(v.$color-primary,green, 1rem)
+}
+
+.red_text{
+    @include article-card(v.$color-secondary,green, 1rem) 
+}
+
+.green_text{
+    @include article-card(v.$color-tertiary, blue, f.rem(1rem));
+    width: 100%;
+   
+}
+
