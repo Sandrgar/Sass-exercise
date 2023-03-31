@@ -1,0 +1,224 @@
+.exercise {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+h1, h2 {
+  color: green;
+  text-decoration: 2px underline blue;
+  text-align: center;
+}
+
+h2 {
+  padding: 1rem;
+  border: 2px solid red;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.text_content:nth-child(even) {
+  color: red;
+  border: 1px solid green;
+  text-align: center;
+  font-size: 16;
+  padding: 10px 0px;
+}
+.text_content:nth-child(odd) {
+  color: blue;
+  border: 1px solid green;
+  text-align: center;
+  font-size: 16;
+  padding: 10px 0px;
+}
+
+.green_text {
+  color: green;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.container-section div:nth-child(1) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #f2f2f2;
+  color: #0d0d0d;
+}
+
+.container-section div:nth-child(2) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #e6e6e6;
+  color: #1a1a1a;
+}
+
+.container-section div:nth-child(3) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #d9d9d9;
+  color: #262626;
+}
+
+.container-section div:nth-child(4) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #cccccc;
+  color: #333333;
+}
+
+.container-section div:nth-child(5) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #bfbfbf;
+  color: #404040;
+}
+
+.container-section div:nth-child(6) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #b3b3b3;
+  color: #4d4d4d;
+}
+
+.container-section div:nth-child(7) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #a6a6a6;
+  color: #595959;
+}
+
+.container-section div:nth-child(8) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #999999;
+  color: #666666;
+}
+
+.container-section div:nth-child(9) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #8c8c8c;
+  color: #737373;
+}
+
+.container-section div:nth-child(10) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: gray;
+  color: gray;
+  background-color: blue;
+  color: red;
+}
+
+.container-section div:nth-child(11) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #737373;
+  color: #8c8c8c;
+}
+
+.container-section div:nth-child(12) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #666666;
+  color: #999999;
+}
+
+.container-section div:nth-child(13) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #595959;
+  color: #a6a6a6;
+}
+
+.container-section div:nth-child(14) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #4d4d4d;
+  color: #b3b3b3;
+}
+
+.container-section div:nth-child(15) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #404040;
+  color: #bfbfbf;
+}
+
+.container-section div:nth-child(16) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #333333;
+  color: #cccccc;
+}
+
+.container-section div:nth-child(17) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #262626;
+  color: #d9d9d9;
+}
+
+.container-section div:nth-child(18) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #1a1a1a;
+  color: #e6e6e6;
+}
+
+.container-section div:nth-child(19) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: #0d0d0d;
+  color: #f2f2f2;
+}
+
+.container-section div:nth-child(20) {
+  border: 1px solid red;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: black;
+  color: white;
+}
+
+.fs-1rem {
+  font-size: 1rem;
+}
+
+.fs-2rem {
+  font-size: 2rem;
+}
+
+.fs-3rem {
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
